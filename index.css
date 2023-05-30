@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: antiquewhite;
+  }
+  h2,
+  h1 {
+    color: black;
+    text-shadow: 2px 2px 3px white;
+  }
+  #app {
+    margin-top: 70px;
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li {
+    text-align: left;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px ;
+    color: black;
+    padding: 8px;
+  }
+  .trash {
+    padding: 12px;
+    font-size: medium;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  #input {
+    color: white;
+    background-color: black;
+    letter-spacing: 2px;
+    width: 400px;
+    height: 40px;
+  
+    border-radius: 12px;
+    border: none;
+    box-shadow: 3px 4px 8px rgb(0, 0, 0) inset;
+    padding-left: 9px;
+  }
+  #add {
+    background-color: green !important;
+    width: 100px;
+    border: black;
+    height: 45px;
+    color: white;
+    border: 1px solid rgb(64, 255, 0);
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  #add:hover {
+    background-color: rgb(15, 111, 254);
+  
+    box-shadow: 2px 2px 70px 5px rgb(90, 129, 235);
+    color: white;
+  }
+  h1 {
+    width: 200px;
+    margin: 10px auto;
+  }
+  h2 {
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 12px;
+  }
